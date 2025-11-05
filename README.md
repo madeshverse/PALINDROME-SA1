@@ -12,7 +12,7 @@
 2. Compare first and last bytes, move inward.
 3. If all match → output Y; otherwise N.
 
-## ⚙️ Prosedure
+## Procedure
 1. Create new 8051 project.
 2. Add palindrome.asm to the project.
 3. Assemble and build.
@@ -22,17 +22,25 @@
 
 ## Program
 MOV R2,#03
+
 MOV R0,#50H
+
 MOV R1,#56H
 
 L1: MOV A,@R0
+
     MOV B,@R1
+   
     CJNE A,B,NOTPALIN
+    
     INC R0
+    
     DEC R1
+    
     DJNZ R2,L1
 
     MOV P1,#'Y'
+    
     SJMP HERE
 
 NOTPALIN: MOV P1,#'N'
