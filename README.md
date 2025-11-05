@@ -49,7 +49,7 @@ HERE: SJMP HERE
 
 ## Output
 
-<img width="385" height="203" alt="Screenshot 2025-11-05 173030" src="https://github.com/user-attachments/assets/51e33096-d0e0-4459-816d-8edb2dae2f1a" />
+<img width="1920" height="1200" alt="Screenshot (63)" src="https://github.com/user-attachments/assets/405efa95-5c71-4a8d-922d-b44626ffe47e" />
 
 <img width="385" height="203" alt="Screenshot 2025-11-05 173030" src="https://github.com/user-attachments/assets/adc67aa7-a68b-4ae3-9ee3-1d39889a3206" />
 
