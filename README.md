@@ -29,19 +29,19 @@ MOV R1,#56H
 
 L1: MOV A,@R0
 
-    MOV B,@R1
+   MOV B,@R1
    
-    CJNE A,B,NOTPALIN
+   CJNE A,B,NOTPALIN
     
-    INC R0
+   INC R0
+   
+   DEC R1
     
-    DEC R1
-    
-    DJNZ R2,L1
+   DJNZ R2,L1
 
-    MOV P1,#'Y'
+   MOV P1,#'Y'
     
-    SJMP HERE
+   SJMP HERE
 
 NOTPALIN: MOV P1,#'N'
 
